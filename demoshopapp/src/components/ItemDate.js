@@ -1,11 +1,17 @@
 import './ItemDate.css';
 
-function ItemDate() {
+function ItemDate(props) {
+
+        // direct value nhi dalenge kyoki components ki value hr baar alag alag hogi 
+
+    const Date = props.day
+    const month = props.month
+    const year = props.year
     return (
         <div className="Dateclass">
-            <span> 09 </span> 
-            <span> November </span>
-            <span> 2002 </span>
+            <span> {Date} </span> 
+            <span> {month} </span>
+            <span> {year} </span>
         </div>);
 }
 

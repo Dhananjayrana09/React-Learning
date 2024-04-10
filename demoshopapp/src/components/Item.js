@@ -1,7 +1,14 @@
 import './Item.css';
 
-function Item() {
-    return(<p className="compclass1"> Soon I will Become a PRO in REACT </p>)
+function Item(props) {
+
+    const itemName = props.name
+    return(
+    <div>
+        <p className="compclass1"> {itemName}</p>
+        {props.children}
+    </div>
+)
 }
 
 export default Item;
