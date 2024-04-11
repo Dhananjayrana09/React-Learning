@@ -1,0 +1,32 @@
+.product-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+    background-color: #333;
+}
+
+.product-date_month {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: white;
+}
+
+.product-date_year{
+    font-size: .9rem;
+    margin-bottom: 1px;
+}
+
+.product-date_year {
+    color: white;
+}
+
+.product-date_day {
+    color: white;
+    font-size: .8rem;
+}

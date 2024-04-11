@@ -1,0 +1,22 @@
+
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.product-item-description {
+    text-align: right;
+}
+
+.product-item-description h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+

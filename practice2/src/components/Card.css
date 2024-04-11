@@ -1,0 +1,10 @@
+.card {
+    /* Define your styles for the card component */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: aqua;
+    width: 600px;
+   
+}
