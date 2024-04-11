@@ -1,0 +1,41 @@
+/* ProductForm.css */
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.new-product_title,
+.new-product_date,
+.new-product_button {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='date'],
+button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type='submit']:hover {
+    background-color: #0056b3;
+}
