@@ -1,50 +1,48 @@
+import React from "react";
 import Navbar from "./Components/Navbar";
 import Filter from "./Components/Filter";
 import Cards from "./Components/Cards";
-import { apiUrl, filterData } from "./data";
+import Spinner from "./Components/Spinner";
+import { apiUrl, filterData } from "./data.js";
+import { toast } from "react-toastify";
 import { useEffect, useState } from "react";
-import {toast} from "react-toastify"
-import  Spinner  from "./Components/Spinner";
-
-
 
 const App = () => {
-  const[courses, setCourses] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [courses, setCourses] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [category, setCategory] = useState("All");
 
-  async function fetchData() {
-    setLoading(true)
-    try{
-      let response = await fetch(apiUrl);
-      let output = await response.json();
+  const fetchData = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch(apiUrl);
+      const output = await res.json();
       setCourses(output.data);
+    } catch (err) {
+      toast.error("Something Went Wrong");
     }
-    catch(error) {
-          toast.error("networn error")
-    }
-    setLoading(false)
-  }
+    setLoading(false);
+  };
+
   useEffect(() => {
     fetchData();
-  }, [])
-
+  }, []);
 
   return (
-    <div>
+    <div className="min-h-screen flex-col flex bg-slate-500">
       <div>
-        <Navbar/>
+        <Navbar />
       </div>
-      <div>
-        <Filter filterData = {filterData}/>
-      </div>
-      <div>
-        {
-          loading ? (<Spinner/>) : (<Cards courses = {courses}/>)
-        }
+      <div className="bg-slate-500">
+        <div>
+          <Filter filterData={filterData} category={category} setCategory={setCategory} />
+        </div>
+        <div className="w-11/12 max-w-[1200px] min-h-[50vh] mx-auto flex flex-wrap justify-center items-center">
+          {loading ? <Spinner /> : <Cards courses={courses} category={category} />}
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;
- 
