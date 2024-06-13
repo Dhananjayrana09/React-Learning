@@ -1,0 +1,90 @@
+# My React Learning Journey 🚀
+
+Welcome to my React learning journey! This repository is dedicated to documenting my progress from a complete beginner to an advanced React developer. Here, you'll find all the projects I create along the way, each showcasing different concepts and techniques I've learned.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Why React?](#why-react)
+- [Learning Path](#learning-path)
+- [Projects](#projects)
+  - [Project 1: Hello World](#project-1-hello-world)
+  - [Project 2: Tourism Plan](#project-2-tourism-plan)
+  - [Project 3: Edtech Dashboard](#project-3-edtech-dashboard)
+  - [Project 4: studyNotion Dashboard](#project-4-studynotion-dashboard)
+- [Resources](#resources)
+
+## Introduction
+
+I'm excited to share my journey of learning React, a powerful JavaScript library for building user interfaces. Through this repository, I aim to keep track of my progress, share my projects, and potentially help others who are also on the same path.
+
+## Why React?
+
+React is known for its simplicity, flexibility, and powerful features. Here are a few reasons why I chose to learn React:
+
+- *Component-Based Architecture*: Makes it easier to build and maintain complex applications.
+- *Virtual DOM*: Enhances performance and provides a seamless user experience.
+- *Strong Community Support*: Plenty of resources, libraries, and tools available.
+- *Used by Industry Leaders*: Companies like Facebook, Instagram, and Airbnb use React.
+
+## Learning Path
+
+My learning path is structured to cover essential concepts and progressively tackle more advanced topics. Here's a brief outline:
+
+1. *Basics of React*
+   - JSX
+   - Components
+   - Props and State
+   - Lifecycle Methods
+2. *Intermediate Concepts*
+   - Hooks
+   - Context API
+   - React Router
+   - Forms and Validation
+3. *Advanced Topics*
+   - State Management with Redux
+   - Performance Optimization
+   - Testing with Jest and Enzyme
+   - Server-Side Rendering (SSR) with Next.js
+
+## Projects
+
+### Project 1: Hello World
+
+- *Description*: My first React component displaying "Hello, World!".
+- *Concepts Learned*: JSX, Functional Components.
+- *Code*: [Hello World](./projects/hello-world)
+
+### Project 2: Tourism Plan
+
+- *Description*: A simple dashboard of a tour planning web app.
+- *Concepts Learned*: State, Event Handling, Lists, and Keys.
+- *Code*: [Tourism Plan](./projects/tourism-plan)
+
+### Project 3: Edtech Dashboard
+
+- *Description*: A dashboard for an edtech platform where we can add or remove courses.
+- *Concepts Learned*: useReducer Hook, useEffect Hook, useRef Hook.
+- *Code*: [Edtech Dashboard](./projects/edtech-dashboard)
+
+### Project 4: studyNotion Dashboard
+
+- *Description*: A basic dashboard to learn routing in React.
+- *Concepts Learned*: React Router, Forms.
+- *Code*: [studyNotion Dashboard](./projects/studynotion-dashboard)
+
+### LOADING.....
+
+## Resources
+
+Throughout my learning journey, I've used various resources that have been immensely helpful. Here are a few of them:
+
+- [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+- [Chai aur React](https://www.youtube.com/watch?v=vz1RlUyrc3w&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+Thank you for visiting my React learning repository. Stay tuned for more updates and projects! 🎉
+
+---
+
+Happy Coding!
