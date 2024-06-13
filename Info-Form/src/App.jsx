@@ -6,7 +6,7 @@ function App() {
     firstName: '',
     lastName: '',
     email: '',
-    country: '',
+    country: 'India',
     streetAddress: '',
     state: '',
     city: '',
@@ -36,6 +36,7 @@ function App() {
     <>
       <form onSubmit={submitHandler}>
         <label htmlFor="firstName"><b>First name</b></label>
+        <br/>
         <input
           type='text'
           placeholder='First name'
@@ -45,6 +46,7 @@ function App() {
         />
 
         <label htmlFor='lastName'><b>Last name</b></label>
+        <br/>
         <input
           type='text'
           placeholder='Last name'
@@ -54,6 +56,7 @@ function App() {
         />
 
         <label htmlFor='email'><b>Email address</b></label>
+        <br/>
         <input
           type='email'
           placeholder='Email'
@@ -63,6 +66,7 @@ function App() {
         />
 
         <label htmlFor='country'><b>Country</b></label>
+        <br/>
         <select
           name='country'
           onChange={changeHandler}
@@ -77,6 +81,7 @@ function App() {
         </select>
 
         <label htmlFor='streetAddress'><b>Street address</b></label>
+        <br/>
         <input
           type='text'
           placeholder='Street address'
@@ -86,6 +91,7 @@ function App() {
         />
 
         <label htmlFor='state'><b>State</b></label>
+        <br/>
         <input
           type='text'
           placeholder='State'
@@ -95,6 +101,7 @@ function App() {
         />
 
         <label htmlFor='city'><b>City</b></label>
+        <br/>
         <input
           type='text'
           placeholder='City'
@@ -104,6 +111,7 @@ function App() {
         />
 
         <label htmlFor='ZipCode'><b>ZIP Code</b></label>
+        <br/>
         <input
           type='text'
           placeholder='ZIP Code'
