@@ -49,4 +49,5 @@ function InputBox({
         </div>
     );
 }
- export default InputBox;  
+
+export default InputBox;
