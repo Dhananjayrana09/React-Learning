@@ -1,0 +1,17 @@
+Custom hooks m kya hua h kuch nhi bss apne khud k hooks banate h hooks m kya hota h method hota h ek vo kuch return karta h frr usse hm hook m array ki form m use karlete h . aise hi hm apna ek method banayenge frr usme kuch return kara denge or uss returned value ko jaha need hogi vha use krlenege array m dalkr as a hook
+
+Example- cosnt usegif= () => {
+    api value 
+    change handler 
+    tag
+    etc....
+} 
+return {gif, tag}
+
+
+use as a hook....
+cosnt[gif, setgif] = usegif()
+
+Custom hooks bhi builtin Hooks ko use krskte h!!! 
+
+Remember the key in loops in react!!!
